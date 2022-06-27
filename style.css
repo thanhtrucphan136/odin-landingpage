@@ -58,14 +58,8 @@ a{
 }
 
 .main-img{
-    width: 500px;
-    height: 200px;
-    background-color: grey;
-    border: 1px;
-    text-align: center;
-    direction: flex;
-    justify-content: center;
-    align-items: center;
+    width: 300px;
+    border-radius: 6px;
 }
 
 .main-button{
@@ -102,6 +96,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     
 }
 
@@ -120,7 +115,9 @@ a{
     font-weight: bold;
     font-size: 16px;
 }
-
+.quote-align{
+    width: 1000px;
+}
 .ad-section{
     background-color: #f9faf8;
     padding: 50px 40px 40px 80px;
